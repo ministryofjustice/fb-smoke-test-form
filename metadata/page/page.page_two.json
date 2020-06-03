@@ -1,0 +1,45 @@
+{
+  "_id": "page.page_two",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.page_two--text.auto_name__2",
+      "_type": "text",
+      "label": "Test Field",
+      "name": "auto_name__2"
+    },
+    {
+      "_id": "page.page_two--number.auto_name__3",
+      "_type": "number",
+      "label": "Number Field",
+      "name": "auto_name__3"
+    },
+    {
+      "_id": "page.page_two--date.auto_name__4",
+      "_type": "date",
+      "legend": "Date Field",
+      "name": "auto_name__4"
+    },
+    {
+      "_id": "page.page_two--email.auto_name__5",
+      "_type": "email",
+      "label": "Email Field",
+      "name": "auto_name__5"
+    },
+    {
+      "_id": "page.page_two--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.page_two--checkboxes--checkbox.auto_name__6",
+          "_type": "checkbox",
+          "label": "Do you want to exit the form?",
+          "name": "auto_name__6"
+        }
+      ],
+      "legend": "Checkbox Field"
+    }
+  ],
+  "heading": "Page Two",
+  "url": "page_two"
+}

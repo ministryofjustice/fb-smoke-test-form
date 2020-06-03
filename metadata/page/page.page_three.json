@@ -1,0 +1,94 @@
+{
+  "_id": "page.page_three",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.page_three--textarea.auto_name__7",
+      "_type": "textarea",
+      "label": "Textarea Field",
+      "name": "auto_name__7"
+    },
+    {
+      "_id": "page.page_three--radios.auto_name__8",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.page_three--radios.auto_name__8--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.page_three--radios.auto_name__8--radio.auto_value__2",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__2"
+        }
+      ],
+      "legend": "Radio Fields",
+      "name": "auto_name__8"
+    },
+    {
+      "_id": "page.page_three--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.page_three--fieldset--text.auto_name__9",
+          "_type": "text",
+          "label": "Text",
+          "name": "auto_name__9"
+        },
+        {
+          "_id": "page.page_three--fieldset--number.auto_name__10",
+          "_type": "number",
+          "label": "Number",
+          "name": "auto_name__10"
+        }
+      ],
+      "legend": "Fieldset"
+    },
+    {
+      "_id": "page.page_three--text.auto_name__11",
+      "_type": "text",
+      "errors": {
+        "pattern": {
+          "any": "Enter a UK Postcode"
+        }
+      },
+      "label": "Text Field with Postcode Regex",
+      "name": "auto_name__11",
+      "validation": {
+        "pattern": "([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9][A-Za-z]?))))\\s?[0-9][A-Za-z]{2})"
+      }
+    },
+    {
+      "_id": "page.page_three--autocomplete.auto_name__14",
+      "_type": "autocomplete",
+      "hint": "Opotions are Alpha, Bravo and Charlie",
+      "items": [
+        {
+          "_id": "page.page_three--autocomplete.auto_name__14--option",
+          "_type": "option",
+          "text": "Alpha",
+          "value": "A"
+        },
+        {
+          "_id": "page.page_three--autocomplete.auto_name__14--option--2",
+          "_type": "option",
+          "text": "Bravo",
+          "value": "B"
+        },
+        {
+          "_id": "page.page_three--autocomplete.auto_name__14--option--3",
+          "_type": "option",
+          "textSummary": "Charlie",
+          "value": "C"
+        }
+      ],
+      "label": "Autocomplete Field",
+      "name": "auto_name__14"
+    }
+  ],
+  "heading": "Page Three",
+  "url": "page_three"
+}

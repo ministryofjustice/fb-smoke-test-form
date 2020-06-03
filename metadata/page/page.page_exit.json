@@ -1,0 +1,11 @@
+{
+  "_id": "page.page_exit",
+  "_type": "page.exit",
+  "heading": "Exit Form",
+  "show": {
+    "identifier": "auto_name__6",
+    "operator": "is",
+    "value": "True"
+  },
+  "url": "page_exit"
+}
