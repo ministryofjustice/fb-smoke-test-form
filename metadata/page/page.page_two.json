@@ -3,34 +3,60 @@
   "_type": "page.form",
   "components": [
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
       "_id": "page.page_two--text.auto_name__2",
       "_type": "text",
       "label": "Test Field",
       "name": "auto_name__2"
     },
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
       "_id": "page.page_two--number.auto_name__3",
       "_type": "number",
       "label": "Number Field",
       "name": "auto_name__3"
     },
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$fields": true,
       "_id": "page.page_two--date.auto_name__4",
       "_type": "date",
       "legend": "Date Field",
       "name": "auto_name__4"
     },
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
       "_id": "page.page_two--email.auto_name__5",
       "_type": "email",
-      "label": "Email Field",
-      "name": "auto_name__5"
+      "hint": "A copy of your answers will be submitted to this email address.",
+      "label": "Email Field (Optional)",
+      "name": "form_user_email",
+      "validation": {
+        "required": false
+      }
     },
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
       "_id": "page.page_two--checkboxes",
       "_type": "checkboxes",
       "items": [
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.page_two--checkboxes--checkbox.auto_name__6",
           "_type": "checkbox",
           "label": "Do you want to exit the form?",

@@ -1,5 +1,6 @@
 {
   "_id": "page.page_confirmation",
   "_type": "page.confirmation",
+  "heading": "All Submittted",
   "url": "page_confirmation"
 }
