@@ -2,6 +2,7 @@
   "_id": "service",
   "_isa": "@ministryofjustice/fb-components=>service",
   "_type": "config.service",
+  "attachUserSubmission": true,
   "emailInputNameUser": "form_user_email",
   "name": "Pentest Form"
 }
