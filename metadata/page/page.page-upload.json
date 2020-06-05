@@ -6,7 +6,7 @@
       "_id": "page.page-upload--upload.auto_name__12",
       "_type": "upload",
       "label": "Upload a File",
-      "name": "auto_name__12"
+      "name": "uploadfile_field"
     }
   ],
   "steps": [

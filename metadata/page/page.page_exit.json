@@ -2,6 +2,7 @@
   "_id": "page.page_exit",
   "_type": "page.exit",
   "heading": "Exit Form",
+  "lede": "The user user journey has finished. Please start again.",
   "show": {
     "identifier": "auto_name__6",
     "operator": "is",

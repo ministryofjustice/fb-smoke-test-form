@@ -9,8 +9,8 @@
       "$field": true,
       "_id": "page.page_two--text.auto_name__2",
       "_type": "text",
-      "label": "Test Field",
-      "name": "auto_name__2"
+      "label": "Text Field",
+      "name": "text_field"
     },
     {
       "$component": true,
@@ -20,7 +20,7 @@
       "_id": "page.page_two--number.auto_name__3",
       "_type": "number",
       "label": "Number Field",
-      "name": "auto_name__3"
+      "name": "number_field"
     },
     {
       "$component": true,
@@ -30,7 +30,7 @@
       "_id": "page.page_two--date.auto_name__4",
       "_type": "date",
       "legend": "Date Field",
-      "name": "auto_name__4"
+      "name": "date_field"
     },
     {
       "$component": true,

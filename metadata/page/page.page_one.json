@@ -5,9 +5,9 @@
     {
       "_id": "page.page_one--text.auto_name__1",
       "_type": "text",
-      "hint": "Enter you name",
+      "hint": "Enter your full name",
       "label": "Name",
-      "name": "auto_name__1"
+      "name": "text_name"
     }
   ],
   "url": "page_one"

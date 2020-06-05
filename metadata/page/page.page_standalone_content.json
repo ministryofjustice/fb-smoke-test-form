@@ -1,5 +1,7 @@
 {
   "_id": "page.page_standalone_content",
   "_type": "page.content",
+  "heading": "Stand-alone Page",
+  "lede": "Nothing to see here, [return to start page](/)",
   "url": "page_standalone_content"
 }

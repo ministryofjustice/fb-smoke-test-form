@@ -6,27 +6,28 @@
       "_id": "page.page_three--textarea.auto_name__7",
       "_type": "textarea",
       "label": "Textarea Field",
-      "name": "auto_name__7"
+      "name": "textarea_field"
     },
     {
       "_id": "page.page_three--radios.auto_name__8",
       "_type": "radios",
+      "hint": "Selecting either option or checkbox will take you to the representation of the same question but using different components types.",
       "items": [
         {
           "_id": "page.page_three--radios.auto_name__8--radio.auto_value__1",
           "_type": "radio",
-          "label": "Yes",
-          "value": "auto_value__1"
+          "label": "Dropdown Option List",
+          "value": "radio_dropdown"
         },
         {
           "_id": "page.page_three--radios.auto_name__8--radio.auto_value__2",
           "_type": "radio",
-          "label": "No",
-          "value": "auto_value__2"
+          "label": "Checkboxes",
+          "value": "radio_checkboxes"
         }
       ],
-      "legend": "Radio Fields",
-      "name": "auto_name__8"
+      "legend": "Radio Fields - branch to field type",
+      "name": "radio_fields"
     },
     {
       "_id": "page.page_three--fieldset",
@@ -36,13 +37,13 @@
           "_id": "page.page_three--fieldset--text.auto_name__9",
           "_type": "text",
           "label": "Text",
-          "name": "auto_name__9"
+          "name": "fieldset_text"
         },
         {
           "_id": "page.page_three--fieldset--number.auto_name__10",
           "_type": "number",
           "label": "Number",
-          "name": "auto_name__10"
+          "name": "fieldset_number"
         }
       ],
       "legend": "Fieldset"
@@ -56,7 +57,7 @@
         }
       },
       "label": "Text Field with Postcode Regex",
-      "name": "auto_name__11",
+      "name": "postcode_field",
       "validation": {
         "pattern": "([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9][A-Za-z]?))))\\s?[0-9][A-Za-z]{2})"
       }
@@ -81,12 +82,12 @@
         {
           "_id": "page.page_three--autocomplete.auto_name__14--option--3",
           "_type": "option",
-          "textSummary": "Charlie",
+          "text": "Charlie",
           "value": "C"
         }
       ],
       "label": "Autocomplete Field",
-      "name": "auto_name__14"
+      "name": "autocomplete_field"
     }
   ],
   "heading": "Page Three",

@@ -1,0 +1,38 @@
+{
+  "_id": "page.page_option_one",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.page_option_one--select.auto_name__5",
+      "_type": "select",
+      "items": [
+        {
+          "_id": "page.page_option_one--select.auto_name__5--option",
+          "_type": "option",
+          "text": "Red",
+          "value": "r"
+        },
+        {
+          "_id": "page.page_option_one--select.auto_name__5--option--2",
+          "_type": "option",
+          "text": "Blue",
+          "value": "b"
+        },
+        {
+          "_id": "page.page_option_one--select.auto_name__5--option--3",
+          "_type": "option",
+          "text": "Green",
+          "value": "g"
+        }
+      ],
+      "label": "Select a Colour",
+      "name": "select_a_colour"
+    }
+  ],
+  "show": {
+    "identifier": "radio_fields",
+    "operator": "is",
+    "value": "radio_dropdown"
+  },
+  "url": "page_option_one"
+}

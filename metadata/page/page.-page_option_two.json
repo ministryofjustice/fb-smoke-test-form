@@ -1,0 +1,40 @@
+{
+  "_id": "page.-page_option_two",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.-page_option_two--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.-page_option_two--checkboxes--checkbox.auto_name__1",
+          "_type": "checkbox",
+          "label": "Red",
+          "name": "checkbox_red",
+          "value": "red"
+        },
+        {
+          "_id": "page.-page_option_two--checkboxes--checkbox.auto_name__1--2",
+          "_type": "checkbox",
+          "label": "Blue",
+          "name": "check_blue",
+          "value": "blue"
+        },
+        {
+          "_id": "page.-page_option_two--checkboxes--checkbox.auto_name__1--3",
+          "_type": "checkbox",
+          "label": "Green",
+          "name": "check_green",
+          "value": "green"
+        }
+      ],
+      "legend": "Select a colour"
+    }
+  ],
+  "show": {
+    "identifier": "radio_fields",
+    "operator": "is",
+    "value": "radio_checkboxes"
+  },
+  "url": "page_option_two"
+}
