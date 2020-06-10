@@ -5,8 +5,7 @@
   "lede": "The user user journey has finished. Please start again.",
   "show": {
     "identifier": "auto_name__6",
-    "operator": "is",
-    "value": "True"
+    "operator": "defined"
   },
   "url": "page_exit"
 }
