@@ -4,6 +4,7 @@
   "_type": "config.service",
   "attachUserSubmission": true,
   "emailInputNameUser": "form_user_email",
+  "emailSubjectTeam": "Smoke Test submission: {name}",
   "emailSubjectUser": "Smoke Test submission: {name}",
   "name": "Pentest Form"
 }
